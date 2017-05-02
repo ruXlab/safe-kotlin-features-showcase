@@ -1,5 +1,6 @@
 package collections
 
+import java.util.*
 import java.util.Arrays.asList
 import java.util.Collections.unmodifiableList
 
