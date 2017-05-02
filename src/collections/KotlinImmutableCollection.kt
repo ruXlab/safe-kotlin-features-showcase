@@ -24,6 +24,7 @@ fun run() {
     mutatorMethod(list1)
 
     val list2 = genList2()
-    mutatorMethod(list2)
+    // mutatorMethod(list2)
     //  ^^^ compiler does check itself
+    //  ^^^ code won't compile
 }
