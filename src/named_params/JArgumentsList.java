@@ -3,9 +3,9 @@ package named_params;
 /**
  * Created by rux on 02/05/17.
  */
-public class JavaArgumentsList {
+public class JArgumentsList {
     public static void main(String[] args) {
-        new JavaArgumentsList().run();
+        new JArgumentsList().run();
     }
 
     void run() {
@@ -16,3 +16,4 @@ public class JavaArgumentsList {
         return true; // pretends we checked something
     }
 }
+

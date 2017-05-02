@@ -16,5 +16,7 @@ fun run() {
 }
 
 fun checkParcelSize(id: Long, width: Double, height: Double, length: Double, weight: Double, price: Double, value: Double): Boolean {
-    return true // pretends we checked something
+    return true // pretends we check something
 }
+
+
