@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/safe-kotlin-demo.iml" filepath="$PROJECT_DIR$/safe-kotlin-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/safe-kotlin-features-showcase.iml" filepath="$PROJECT_DIR$/.idea/modules/safe-kotlin-features-showcase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/safe-kotlin-features-showcase_main.iml" filepath="$PROJECT_DIR$/.idea/modules/safe-kotlin-features-showcase_main.iml" group="safe-kotlin-features-showcase" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/safe-kotlin-features-showcase_test.iml" filepath="$PROJECT_DIR$/.idea/modules/safe-kotlin-features-showcase_test.iml" group="safe-kotlin-features-showcase" />
     </modules>
   </component>
 </project>
