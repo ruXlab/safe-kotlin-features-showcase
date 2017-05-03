@@ -12,11 +12,14 @@ buildscript {
 }
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile 'org.json:json:20160212'
     testCompile 'junit:junit:4.12'
+
 }
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 sourceSets {
     main.kotlin.srcDirs += 'src'
