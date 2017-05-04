@@ -5,7 +5,7 @@ package numbres;
  */
 public class JavaNumbersSafety {
     public static void main(String[] args) {
-        int n = 2000000000;
+        int n = 2_000_000_000;
         long b = n + n;
         System.out.println(b);
     }
