@@ -6,16 +6,6 @@ import java.io.File
  * Created by rux on 02/05/17.
  */
 
-class Parcel(
-    val id: Long,
-    val width: Double,
-    val height: Double,
-    val length: Double,
-    val weight: Double,
-    val price: Double,
-    val value: Double
-)
-
 class MyService(
     val config: Map<String, String>,
     val input: File,
