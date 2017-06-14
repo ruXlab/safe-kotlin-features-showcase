@@ -19,20 +19,20 @@ public class JOptionals {
         display(peter);
     }
 
-void display(JPerson person) {
-    StringBuilder sb = new StringBuilder();
-    sb.append(person.name).append(" moved to ");
-    if (person.address != null && person.address.street != null)
-        sb.append(person.address.street);
-    else sb.append("unknown place");
-    if (person.address != null && person.address.zip != null)
-        sb.append(person.address.zip.toUpperCase());
-    sb.append(" on ");
-    if (person.address != null && person.address.updatedAt != null)
-        sb.append(person.address.updatedAt.toGMTString());
-    else sb.append("unknown date");
-    System.out.println(sb.toString());
-}
+    void display(JPerson person) {
+        StringBuilder sb = new StringBuilder();
+        sb.append(person.name).append(" moved to ");
+        if (person.address != null && person.address.street != null)
+            sb.append(person.address.street);
+        else sb.append("unknown place");
+        if (person.address != null && person.address.zip != null)
+            sb.append(person.address.zip.toUpperCase());
+        sb.append(" on ");
+        if (person.address != null && person.address.updatedAt != null)
+            sb.append(person.address.updatedAt.toGMTString());
+        else sb.append("unknown date");
+        System.out.println(sb.toString());
+    }
 
 }
 
