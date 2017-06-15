@@ -104,18 +104,21 @@ data class Speed(val speed: Double, val unit: SpeedUnit) {
 
 
 fun main(args: Array<String>) {
-    println((10.asCentimetres + 1.asMeters).asMeters.asYards)
     println(10.asSeconds + 5.asMinutes)
+    // 310.0s
 
     val speed = 10.asKilometers / 5.asHours
     val speedInMPerSecond = speed.to(Meters / Seconds)
     println("$speed = $speedInMPerSecond")
+    // 2.0km/h = 0.556m/s
 
     val speedInMPerHour = speed.to(Miles / Hours)
     println("$speed = $speedInMPerHour")
+    // 2.0km/h = 1.2427454732996135mi/h
 
     val `50mph` = 50.asMiles / 1.asHours
-    println("$`50mph` = ${`50mph`.to(Kilometers/Hours)}")
+    println("$`50mph` = ${`50mph`.to(Kilometers / Hours)}")
+    // 50.0mi/h = 80.467km/h
 }
 
 

@@ -4,6 +4,9 @@
 .idea/dictionaries
 .idea/modules
 .idea/compiler.xml
+.idea/modules.xml
+.idea/encodings.xml
+kdemo.iml
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
